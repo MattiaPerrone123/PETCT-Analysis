@@ -22,15 +22,15 @@ The input data consists of PET-CT scans from 60 patients with degenerative scoli
 ### Root Directory
 - **Data/**: Placeholder for input data (not included in the repository)
 - **docs/**: Documentation and resources, including:
-  - `abstract.pdf`: Abstract (poster at ORS 2025).
-  - `pipeline.log`: Example log file from a pipeline run
+  - **abstract.pdf**: Abstract (poster at ORS 2025).
+  - **pipeline.log**: Example log file from a pipeline run
 - **input_ts/**: Directory where CT series are moved for segmentation
 - **main.ipynb**: Jupyter notebook demonstrating the pipeline's usage
 - **requirements.txt**: Python dependencies required for the project
 - **.gitignore**: Specifies files and folders to exclude from version control
 
 
-The `src/` directory contains all scripts and modules for processing, analysis and utility functions:
+The **src/** directory contains all scripts and modules for processing, analysis and utility functions:
 - **CTpipeline.py**: Processes and performs segmentation of CT scans 
 - **PETpipeline.py**: Processes and performs registration of PET scans to CT scans
 - **SUVpipeline.py**: Computes and analyzes standardized uptake values (SUVs)
