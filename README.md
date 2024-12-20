@@ -1,4 +1,4 @@
-## PET-CT Analysis
+# PET-CT Analysis
 This repository contains the codebase for a project focused on analyzing the standardized uptake value (SUV) in lumbar vertebrae from PET scans. Initial findings indicate a correlation between SUV and spinal level, potentially linked to the higher presence of red bone marrow.  Future work includes investigating the relationship between SUV and degenerative scoliosis. For more details, please see the [abstract](docs/abstract.pdf) (poster at ORS 2025 annual meeting).
 
 
