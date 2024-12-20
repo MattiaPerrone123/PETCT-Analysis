@@ -1,9 +1,23 @@
-## Repo Structure
-parlo un po del progetto
+## PETCT-Analysis
+This repository contains the codebase for a project focused on analyzing the standardized uptake value (SUV) in lumbar vertebrae from PET scans. Initial findings indicate a correlation between SUV and spinal level, potentially linked to the higher presence of red bone marrow.  Future work includes investigating the relationship between SUV and degenerative scoliosis. For more details, please see the [abstract](docs/abstract.pdf)(poster at ORS 2025 annual meeting).
+
 
 ### Data
 - parlo di input data
 
+
+
+### Key features
+- **Segmentation of CT scans**:
+  - Performing segmentation of vertebrae in CT scans using [TotalSegmentator](https://github.com/wasserth/TotalSegmentator)
+- **Registration of PET scans to CT scans**:
+  - Registering PET scans to CT scans to apply the masks generated in the previous step to PET scans
+- **SUV calculation and analysis**:
+  - Computing mean SUV values by vertebral levels and correlates them with spine level
+
+
+
+## Repo Structure
 
 ### Root Directory
 - **Data/**: Placeholder for input data (not included in the repository).
@@ -33,12 +47,5 @@ The `src/` directory contains all scripts and modules for processing, analysis a
 - **visualization.py**: Functions for visualizing data and results
 
 
-## Key features
-- **Segmentation of CT scans**:
-  - Performing segmentation of vertebrae in CT scans using [TotalSegmentator](https://github.com/wasserth/TotalSegmentator)
-- **Registration of PET scans to CT scans**:
-  - Registering PET scans to CT scans to apply the masks generated in the previous step to PET scans
-- **SUV calculation and analysis**:
-  - Computing mean SUV values by vertebral levels and correlates them with spine level
 
 
