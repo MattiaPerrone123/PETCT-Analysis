@@ -1,0 +1,17 @@
+2024-12-19 11:33:19,757 - src.logging_setup - INFO - First step - Segmentation - complete
+2024-12-19 11:33:20,338 - src.logging_setup - INFO - Processing patient ID: 0176338
+2024-12-19 11:33:28,859 - src.logging_setup - INFO - Processing complete for patient: 0176338
+2024-12-19 11:33:28,859 - src.logging_setup - INFO - Processing patient ID: 0340668
+2024-12-19 11:33:36,901 - src.logging_setup - INFO - Processing complete for patient: 0340668
+2024-12-19 11:33:36,901 - src.logging_setup - INFO - Processing patient ID: 0350547
+2024-12-19 11:33:36,901 - src.logging_setup - INFO - Skipping patient ID: 0350547
+2024-12-19 11:33:36,901 - src.logging_setup - INFO - Processing patient ID: 0417801
+2024-12-19 11:33:36,901 - src.logging_setup - INFO - Skipping patient ID: 0417801
+2024-12-19 11:33:36,901 - src.logging_setup - INFO - Processing patient ID: 0970031
+2024-12-19 11:33:47,174 - src.logging_setup - INFO - Processing complete for patient: 0970031
+2024-12-19 11:33:47,174 - src.logging_setup - INFO - Processing patient ID: 5091216
+2024-12-19 11:33:58,057 - src.logging_setup - INFO - Processing complete for patient: 5091216
+2024-12-19 11:33:58,097 - src.logging_setup - INFO - Second step - Registration - complete
+2024-12-19 11:33:58,808 - src.logging_setup - INFO - Loading existing SUV volumes dictionary from suv_dict.pkl
+2024-12-19 11:33:58,823 - src.logging_setup - INFO - Third step - Computing suv - complete
+2024-12-19 11:33:58,928 - src.logging_setup - INFO - Pipeline complete
