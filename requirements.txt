@@ -1,0 +1,10 @@
+numpy
+pandas
+SimpleITK
+nibabel
+pydicom
+torch
+matplotlib
+seaborn
+opencv-python
+TotalSegmentator
