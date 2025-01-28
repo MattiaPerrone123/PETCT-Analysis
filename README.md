@@ -16,6 +16,14 @@ The input data consists of PET-CT scans from 60 patients with degenerative scoli
   - Computing mean SUV values by vertebral levels and correlates them with spine level
 
 
+<br>
+
+<p align="center">
+  <img src="docs/pipeline.png" width="1000" height="500">
+</p>
+
+<br>
+
 
 ## Repo Structure
 
