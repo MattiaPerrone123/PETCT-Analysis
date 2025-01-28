@@ -25,7 +25,7 @@ The input data consists of PET-CT scans from 60 patients with degenerative scoli
 <br>
 
 
-## Repo Structure
+## Repository Structure
 
 ### Root Directory
 - **Data/**: Placeholder for input data (not included in the repository)
