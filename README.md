@@ -19,7 +19,7 @@ The input data consists of PET-CT scans from 60 patients with degenerative scoli
 <br>
 
 <p align="center">
-  <img src="docs/pipeline.png" width="1000" height="150">
+  <img src="docs/pipeline.png" width="1000" height="120">
 </p>
 
 <br>
